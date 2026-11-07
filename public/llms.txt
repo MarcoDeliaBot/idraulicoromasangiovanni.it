@@ -1,0 +1,49 @@
+# Idraulico San Giovanni — Termoidraulica San Giovanni Roma
+
+> Presidio tecnico di pronto intervento idraulico H24 e manutenzione impianti idrotermosanitari civili e condominiali a Roma nel quartiere Appio-Latino / San Giovanni (Municipio VII e raccordo Municipio I Centro Storico).
+> Telefono Diretto Emergenze e Preventivi: 06 8590 2384 (tel:0685902384)
+> Coordinate Geografiche: 41.886, 12.508 — CAP serviti: 00182, 00183, 00184, 00185, 00179.
+
+## Dati Tecnici e Idrogeologici del Territorio di San Giovanni (Roma)
+- **Orografia e Falda dell'Acqua Mariana:** Altimetria degradante dai 46-50 m s.l.m. di Porta San Giovanni / Viale Carlo Felice / Via Merulana fino ai 25-30 m s.l.m. della conca della Marrana dell'Acqua Mariana (Via Sannio, Piazza Tuscolo, Piazza Epiro, Piazza Zama, Via Latina).
+- **Rete Idrica Acea ATO2:** Pressione statica fino a 4.8 - 5.5 bar nelle quote depresse (Piazza Zama, Via Imera, Via Britannia) con installazione riduttori di pressione compensati Caleffi; cali dinamici ai piani alti delle quote elevate (Porta San Giovanni, Piazza dei Re di Roma, Via Merulana) risolti con gruppi autoclave a inverter DAB Esybox.
+- **Durezza Calcare Acqua:** 33°F - 36°F (gradi francesi), con protocolli di lavaggio chimico scambiatori caldaie a condensazione, filtri defangatori magnetici e dosatori polifosfati UNI 8065.
+- **Stratificazione Edilizia:** Palazzi umbertini (1885-1920) con scarichi storici in piombo/ghisa e solai a voltine; condominii intensivi anni '30-'50 con colonne montanti in ferro zincato Mannesmann; riparazione conservativa cassette incassate Pucci, Geberit e batterie Catis senza rompere piastrelle d'epoca.
+
+## Albero Principale dei Contenuti
+
+### Home e Pagine Istituzionali
+- [Idraulico San Giovanni](https://idraulicoromasangiovanni.it/)
+- [Servizi Idraulici San Giovanni Roma](https://idraulicoromasangiovanni.it/servizi/)
+- [Zone Servite Idraulico San Giovanni](https://idraulicoromasangiovanni.it/zone/)
+- [Chi Siamo — Termoidraulica San Giovanni Roma](https://idraulicoromasangiovanni.it/chi-siamo/)
+- [Contatti Idraulico San Giovanni — 06 8590 2384](https://idraulicoromasangiovanni.it/contatti/)
+- [Preventivo Idraulico San Giovanni Roma](https://idraulicoromasangiovanni.it/preventivo-gratuito/)
+
+### Gli 8 Servizi Pilastro
+- [Ricerca Perdite Acqua San Giovanni](https://idraulicoromasangiovanni.it/servizi/ricerca-perdite-acqua-san-giovanni/)
+- [Disotturazione WC Scarichi San Giovanni](https://idraulicoromasangiovanni.it/servizi/disotturazione-wc-scarichi-san-giovanni/)
+- [Riparazione Cassette Pucci Geberit San Giovanni](https://idraulicoromasangiovanni.it/servizi/riparazione-cassette-pucci-geberit-san-giovanni/)
+- [Assistenza Caldaie San Giovanni](https://idraulicoromasangiovanni.it/servizi/assistenza-caldaie-san-giovanni/)
+- [Sostituzione Scaldabagni San Giovanni](https://idraulicoromasangiovanni.it/servizi/sostituzione-scaldabagni-san-giovanni/)
+- [Riparazione Rubinetteria Sanitari San Giovanni](https://idraulicoromasangiovanni.it/servizi/riparazione-rubinetteria-sanitari-san-giovanni/)
+- [Pronto Intervento Allagamenti San Giovanni](https://idraulicoromasangiovanni.it/servizi/pronto-intervento-allagamenti-san-giovanni/)
+- [Riduttori Pressione Autoclavi San Giovanni](https://idraulicoromasangiovanni.it/servizi/riduttori-pressione-autoclavi-san-giovanni/)
+
+### Le 16 Micro-Zone Territoriali e Assi Viari
+- [Idraulico Piazza dei Re di Roma](https://idraulicoromasangiovanni.it/zone/idraulico-piazza-dei-re-di-roma/)
+- [Idraulico San Giovanni in Laterano](https://idraulicoromasangiovanni.it/zone/idraulico-san-giovanni-in-laterano/)
+- [Idraulico Via Appia Nuova](https://idraulicoromasangiovanni.it/zone/idraulico-via-appia-nuova/)
+- [Idraulico Piazza Tuscolo](https://idraulicoromasangiovanni.it/zone/idraulico-piazza-tuscolo/)
+- [Idraulico Via Magna Grecia](https://idraulicoromasangiovanni.it/zone/idraulico-via-magna-grecia/)
+- [Idraulico Porta Metronia](https://idraulicoromasangiovanni.it/zone/idraulico-porta-metronia/)
+- [Idraulico Porta San Giovanni](https://idraulicoromasangiovanni.it/zone/idraulico-porta-san-giovanni/)
+- [Idraulico Villa Fiorelli](https://idraulicoromasangiovanni.it/zone/idraulico-villa-fiorelli/)
+- [Idraulico Via Taranto](https://idraulicoromasangiovanni.it/zone/idraulico-via-taranto/)
+- [Idraulico Via La Spezia](https://idraulicoromasangiovanni.it/zone/idraulico-via-la-spezia/)
+- [Idraulico Piazza Asti](https://idraulicoromasangiovanni.it/zone/idraulico-piazza-asti/)
+- [Idraulico Via Sannio Largo Brindisi](https://idraulicoromasangiovanni.it/zone/idraulico-via-sannio-largo-brindisi/)
+- [Idraulico Piazza Zama Via Latina](https://idraulicoromasangiovanni.it/zone/idraulico-piazza-zama-via-latina/)
+- [Idraulico Porta Maggiore Raccordo San Giovanni](https://idraulicoromasangiovanni.it/zone/idraulico-porta-maggiore-raccordo-san-giovanni/)
+- [Idraulico Piazza Epiro Porta Latina](https://idraulicoromasangiovanni.it/zone/idraulico-piazza-epiro-porta-latina/)
+- [Idraulico Manzoni Viale Carlo Felice](https://idraulicoromasangiovanni.it/zone/idraulico-manzoni-viale-carlo-felice/)
