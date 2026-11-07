@@ -4,6 +4,14 @@ Tutte le modifiche rilevanti a questo progetto saranno documentate in questo fil
 Il formato è basato su [Keep a Changelog](https://keepachangelog.com/it/1.0.0/),
 e questo progetto aderisce al [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.1.1] - 2026-11-07
+### Added
+- Deployment del portale statico completato con successo sulla rete edge globale di Cloudflare Workers (`idraulicoromasangiovanni-static`).
+- Configurazione e attivazione delle rotte di produzione su Cloudflare: `idraulicoromasangiovanni.it/*` e `www.idraulicoromasangiovanni.it/*`.
+
+### Changed
+- Rifinitura della formattazione e allineamento indici di configurazione in `wrangler.static.jsonc`, `scripts/generate-sitemap.mjs`, `tsconfig.json` e `globals.css`.
+
 ## [0.1.0] - 2026-11-07
 ### Added
 - Inizializzazione del portale **idraulicoromasangiovanni.it** con architettura Next.js 15 (App Router, `output: 'export'`), TypeScript e Tailwind CSS.

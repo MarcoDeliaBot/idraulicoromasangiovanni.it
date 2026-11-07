@@ -1,6 +1,6 @@
 {
   "name": "idraulicoromasangiovanni.it",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "description": "Portale web SEO locale ad altissima conversione - Idraulico San Giovanni Roma (Appio-Latino Municipio VII e Centro Storico)",
   "author": "Marco D'Elia",
@@ -31,4 +31,3 @@
     "wrangler": "^4.149.0"
   }
 }
-
