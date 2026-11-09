@@ -92,6 +92,7 @@ export default function ContactForm({
           </label>
           <input
             id="cf-name"
+            name="nome"
             type="text"
             required
             value={formData.name}
@@ -106,6 +107,7 @@ export default function ContactForm({
           </label>
           <input
             id="cf-phone"
+            name="telefono"
             type="tel"
             required
             value={formData.phone}
@@ -123,6 +125,7 @@ export default function ContactForm({
           </label>
           <input
             id="cf-address"
+            name="indirizzo"
             type="text"
             required
             value={formData.address}
@@ -137,6 +140,7 @@ export default function ContactForm({
           </label>
           <input
             id="cf-service"
+            name="servizio"
             type="text"
             value={formData.service}
             onChange={(e) => setFormData({ ...formData, service: e.target.value })}
@@ -152,6 +156,7 @@ export default function ContactForm({
         </label>
         <textarea
           id="cf-details"
+          name="dettagli"
           rows={3}
           value={formData.details}
           onChange={(e) => setFormData({ ...formData, details: e.target.value })}

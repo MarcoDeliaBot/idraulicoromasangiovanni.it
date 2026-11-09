@@ -4,6 +4,10 @@ Tutte le modifiche rilevanti a questo progetto saranno documentate in questo fil
 Il formato è basato su [Keep a Changelog](https://keepachangelog.com/it/1.0.0/),
 e questo progetto aderisce al [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.1.3] - 2026-11-09
+### Changed
+- Perfezionamento dell'integrazione di **FormSubmit** su `idraulicoromasangiovanni.it`: aggiunti gli attributi HTML `name` a tutti i campi di input (`nome`, `telefono`, `indirizzo`, `servizio`, `dettagli`) per garantire il recapito completo e la piena compatibilità sia con fetch asincrono AJAX che con il submit nativo HTML.
+
 ## [0.1.2] - 2026-11-09
 ### Added
 - Integrazione di **FormSubmit** (`https://formsubmit.co`) nel modulo contatti `ContactForm` per l'inoltro reale e asincrono delle richieste di preventivo via email con fallback nativo e reindirizzamento automatico a `/grazie/`.
