@@ -18,6 +18,7 @@ export default function ContactForm({
   defaultService = '',
 }: ContactFormProps) {
   const router = useRouter();
+  const [submitting, setSubmitting] = useState(false);
   const [formData, setFormData] = useState({
     name: '',
     phone: '',
@@ -27,18 +28,50 @@ export default function ContactForm({
     consent: false,
   });
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (!formData.consent) return;
-    router.push('/grazie/');
+    if (!formData.consent || submitting) return;
+    setSubmitting(true);
+
+    try {
+      await fetch(`https://formsubmit.co/ajax/${SITE_CONFIG.email}`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          Accept: 'application/json',
+        },
+        body: JSON.stringify({
+          nome: formData.name,
+          telefono: formData.phone,
+          indirizzo: formData.address,
+          servizio: formData.service,
+          dettagli: formData.details,
+          _subject: `Nuova richiesta da ${SITE_CONFIG.domain} - ${formData.name}`,
+          _captcha: 'false',
+        }),
+      });
+    } catch {
+      // Fallback: prosegue comunque alla pagina di ringraziamento
+    } finally {
+      router.push('/grazie/');
+    }
   };
 
   return (
     <form
+      action={`https://formsubmit.co/${SITE_CONFIG.email}`}
+      method="POST"
       onSubmit={handleSubmit}
       className="card-light p-6 sm:p-8 space-y-4"
       aria-label="Modulo richiesta preventivo o intervento programmato"
     >
+      <input type="hidden" name="_captcha" value="false" />
+      <input type="hidden" name="_next" value={`${SITE_CONFIG.url}/grazie/`} />
+      <input
+        type="hidden"
+        name="_subject"
+        value={`Nuova richiesta preventivo da ${SITE_CONFIG.domain}`}
+      />
       <div className="border-b border-slate-200 pb-3">
         <div className="text-lg font-extrabold text-slate-900">
           Richiedi Preventivo o Intervento Programmato
@@ -147,9 +180,10 @@ export default function ContactForm({
 
       <button
         type="submit"
-        className="btn-sky-primary w-full py-3.5 px-6 rounded-xl text-sm font-extrabold"
+        disabled={submitting}
+        className="btn-sky-primary w-full py-3.5 px-6 rounded-xl text-sm font-extrabold disabled:opacity-60 transition-opacity"
       >
-        Invia Richiesta al Presidio Tecnico
+        {submitting ? 'Invio in corso...' : 'Invia Richiesta al Presidio Tecnico'}
       </button>
     </form>
   );

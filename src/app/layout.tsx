@@ -34,7 +34,9 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: '/icon.svg',
+    apple: '/icon.svg',
   },
+  manifest: '/manifest.webmanifest',
   openGraph: {
     type: 'website',
     locale: 'it_IT',

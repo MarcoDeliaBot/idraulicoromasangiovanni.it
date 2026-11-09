@@ -42,8 +42,10 @@ export default {
     newHeaders.set('X-Frame-Options', 'SAMEORIGIN');
     newHeaders.set('Permissions-Policy', 'geolocation=(), camera=(), microphone=()');
 
-    // 5. Content-Type espliciti per file SEO e LLMs
-    if (url.pathname === '/sitemap.xml') {
+    // 5. Content-Type espliciti e Cache Control per file SEO, LLMs e Manifest
+    if (url.pathname.startsWith('/_next/static/')) {
+      newHeaders.set('Cache-Control', 'public, max-age=31536000, immutable');
+    } else if (url.pathname === '/sitemap.xml') {
       newHeaders.set('Content-Type', 'application/xml; charset=utf-8');
       newHeaders.set('Cache-Control', 'public, max-age=3600');
     } else if (
@@ -52,6 +54,10 @@ export default {
       url.pathname === '/llms-full.txt'
     ) {
       newHeaders.set('Content-Type', 'text/plain; charset=utf-8');
+      newHeaders.set('Cache-Control', 'public, max-age=3600');
+    } else if (url.pathname === '/manifest.webmanifest') {
+      newHeaders.set('Content-Type', 'application/manifest+json; charset=utf-8');
+      newHeaders.set('Cache-Control', 'public, max-age=86400');
     }
 
     return new Response(response.body, {

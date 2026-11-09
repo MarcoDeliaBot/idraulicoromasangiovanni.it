@@ -1,0 +1,17 @@
+{
+  "name": "Idraulico San Giovanni Roma",
+  "short_name": "Idraulico SG",
+  "description": "Pronto intervento idraulico a Roma San Giovanni e Quartiere Appio-Latino. Chiama lo 06 8590 2384.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0284c7",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
+

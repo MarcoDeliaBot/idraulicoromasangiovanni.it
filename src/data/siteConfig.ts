@@ -35,6 +35,6 @@ export const SITE_CONFIG = {
     longitude: 12.508,
   },
   author: "Marco D'Elia",
-  version: '0.1.1',
+  version: '0.1.2',
 };
 
